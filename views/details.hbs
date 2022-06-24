@@ -1,0 +1,21 @@
+<a href="/movies">Volver</a>
+<div class="card-group" style="width: 300px">
+  <div class="card" >
+    <img src="{{image}}" class="card-img-top" style="width: 200px" alt="{{title}}">
+    <div class="card-body">
+      <h5 class="card-title">{{title}}</h5>
+      <a href="/movies">See More</a>
+        </div>
+  </div>
+</div>
+<h2>{{title}}</h2>
+<h4>Director: {{director}}</h4>
+<ul style="font-weight: bold">Stars: 
+  {{#each stars}}
+  <li>{{this}}</li>
+  {{/each}}
+  
+  </ul>
+  <p>{{description}}</p>
+  <p>{{showtimes}}</p>
+  
