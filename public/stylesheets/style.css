@@ -30,3 +30,13 @@ a {
   margin: 0;
   padding: 0;
 }
+
+.welcome {
+  font-size: 120px;
+  color: white;
+  word-spacing: parent-width; 
+  text-indent: 900px;
+}
+.checkMovies {
+  text-align: right;
+}
